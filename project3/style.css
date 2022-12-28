@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+body{
+	background: #111;
+}
+.container{
+	width: 100%;
+	height: calc(100vh - 50px);
+}
+.orange-bg{
+	width: 985px;
+	height: 500px;
+	background: darkorange;
+}
+.container .page{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width:90%;
+	margin: auto;
+	z-index: 100;
+	background: black;
+	border-radius: 30px;
+}
+.container .page  nav{
+	width:100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+.container .page   nav .logo{
+	font-size: 20px;
+	color: white;
+	margin-left: 20px;
+}
+.container .page   nav .links, #home{
+	display: flex;
+	margin-right: 20px;
+	align-items: center;
+}
+
+.container .page   nav .links  #home{
+	height: 70px;
+	background: darkorange;
+	margin-right: 0;
+}
+.container .page   nav .links li a{
+	padding: 0 14px;
+	font-size: 18px;
+	color: white;
+}
+.container .page   nav .links li a:hover{
+	text-decoration: underline;
+}
+.container .page .banner{
+	width: 100%;
+	height: calc(100% - 120px);
+	
+}
+.container .page .banner .banner-content{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.container .page .banner .banner-content .banner-text{
+	width: 600px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.container .page .banner .banner-content .banner-text h1, h3,p{
+	color: white;
+
+}
+.container .page .banner .banner-content .banner-text #cv-btn{
+	background: darkorange;
+	color: white;
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+}
+.container .page .banner .banner-content .banner-img{
+	width: 900px;
+	width: 700px;
+
+}
+.container .page .banner .banner-content .banner-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+
+}
+.container .page .services-page{
+ width: 100%;
+ height: 100%;
+ 
+}
+.title{
+	color: darkorange;
+	margin: 100px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.container .page .services-page .content{
+	width: 100%;
+	width: 100%;
+	}
+.container .page .services-page .content .cards{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.container .page .services-page .content .cards .card{
+	width: 500px;
+	height: 250px;
+	background: darkorange;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 30px;
+
+}
+.container .page .services-page .content .cards .one,
+.container .page .services-page .content .cards .three{
+    background: #111;
+}
+.container .page .services-page .content .cards .card img{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+.container .page .services-page .content .cards .card h2{
+	color: white;
+	font-weight: 700;
+}
+.container .page .services-page .content .cards .card .card-btn{
+	background: darkorange;
+	width: 100px;
+	height: 30px;
+	border: none;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.container .page .services-page .content .cards .two .card-btn{
+	background: #111;
+	color: darkorange;
+}
+.container .page .services-page .content .experience-cards{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 0 15px;
+
+}
+.container .page .services-page .content .experience-cards .first-card{
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
+.container .page .services-page .content .experience-cards .first-card,
+.container .page .services-page .content .experience-cards .sec-card,
+.container .page .services-page .content .experience-cards .third-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+
+}
+.container .page .services-page .content .experience-cards .vertical-experience-cards{
+	display:flex;
+	flex-direction: column;
+
+}
+.container .page .services-page .content .experience-cards .card{
+	width: 300px;
+	height: 70px;
+	background: #111;
+	margin: 5px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.container .page .contact{
+width: 100%;
+height: 100%;
+
+
+}
+.container .page .contact .content{
+	width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container .page .contact .content .contact-template{
+	background: #111;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container .page .contact .content .contact-template h1{
+	color: white;
+	margin-bottom: 10px;
+}
+.container .page .contact .content .contact-template .username,
+.container .page .contact .content .contact-template .email,
+.container .page .contact .content .contact-template #message{
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+
+}
+.container .page .contact .content .contact-template #message{
+	height: 60px;
+}
+.container .page .contact .content .contact-template .submit-btn{
+	width: 100px;
+	height: 45px;
+	background: darkorange;
+	margin-top: 5px;
+	border-radius: 10px;
+
+}
+.container .page .contact .content .social-media{
+	display: flex;
+	width: 500px;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.container .page .contact .content .social-media h1{
+	color: white;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.container .page .contact .content .social-media .friends{
+	width: 150px;
+	height: 60px;
+	background: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
